@@ -12,13 +12,11 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8255C22E-0FC3-4F8C-ACA3-AA3511FBF124}.Debug|Win32.ActiveCfg = Debug|Win32
-		{8255C22E-0FC3-4F8C-ACA3-AA3511FBF124}.Debug|Win32.Build.0 = Debug|Win32
 		{8255C22E-0FC3-4F8C-ACA3-AA3511FBF124}.Release|Win32.ActiveCfg = Release|Win32
 		{8255C22E-0FC3-4F8C-ACA3-AA3511FBF124}.Release|Win32.Build.0 = Release|Win32
 		{00463047-0A38-4226-A9C2-2C061C7EE3BA}.Debug|Win32.ActiveCfg = Debug|Win32
 		{00463047-0A38-4226-A9C2-2C061C7EE3BA}.Debug|Win32.Build.0 = Debug|Win32
 		{00463047-0A38-4226-A9C2-2C061C7EE3BA}.Release|Win32.ActiveCfg = Release|Win32
-		{00463047-0A38-4226-A9C2-2C061C7EE3BA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
