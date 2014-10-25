@@ -1,0 +1,144 @@
+﻿生成启动时间为 2014/10/25 16:46:32。
+     1>项目“D:\opt\vsworkspace\LuaLib\LuaLib\LuaLib.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\demo\lua\lua-5.2.3\src\lapi.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lauxlib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lbaselib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lbitlib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lcode.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lcorolib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lctype.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ldblib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ldebug.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ldo.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ldump.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lfunc.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lgc.c" "..\..\..\..\demo\lua\lua-5.2.3\src\linit.c" "..\..\..\..\demo\lua\lua-5.2.3\src\liolib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\llex.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lmathlib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lmem.c" "..\..\..\..\demo\lua\lua-5.2.3\src\loadlib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lobject.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lopcodes.c" "..\..\..\..\demo\lua\lua-5.2.3\src\loslib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lparser.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lstate.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lstring.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lstrlib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ltable.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ltablib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ltm.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lua.c" "..\..\..\..\demo\lua\lua-5.2.3\src\luac.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lundump.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lvm.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lzio.c"
+         lzio.c
+         lvm.c
+     1>d:\demo\lua\lua-5.2.3\src\lvm.c(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+         lundump.c
+         luac.c
+     1>d:\demo\lua\lua-5.2.3\src\luac.c(43): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\string.h(164) : 参见“strerror”的声明
+     1>d:\demo\lua\lua-5.2.3\src\luac.c(178): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+         lua.c
+     1>d:\demo\lua\lua-5.2.3\src\lua.c(425): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(449) : 参见“getenv”的声明
+     1>d:\demo\lua\lua-5.2.3\src\lua.c(428): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(449) : 参见“getenv”的声明
+         ltm.c
+         ltablib.c
+         ltable.c
+         lstrlib.c
+     1>d:\demo\lua\lua-5.2.3\src\lstrlib.c(845): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>d:\demo\lua\lua-5.2.3\src\lstrlib.c(847): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>d:\demo\lua\lua-5.2.3\src\lstrlib.c(886): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>d:\demo\lua\lua-5.2.3\src\lstrlib.c(914): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>d:\demo\lua\lua-5.2.3\src\lstrlib.c(924): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>d:\demo\lua\lua-5.2.3\src\lstrlib.c(934): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>d:\demo\lua\lua-5.2.3\src\lstrlib.c(943): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>d:\demo\lua\lua-5.2.3\src\lstrlib.c(960): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+         lstring.c
+         lstate.c
+         lparser.c
+         loslib.c
+     1>d:\demo\lua\lua-5.2.3\src\loslib.c(108): warning C4996: 'tmpnam': This function or variable may be unsafe. Consider using tmpnam_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(330) : 参见“tmpnam”的声明
+     1>d:\demo\lua\lua-5.2.3\src\loslib.c(117): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(449) : 参见“getenv”的声明
+     1>d:\demo\lua\lua-5.2.3\src\loslib.c(200): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\time.inl(99) : 参见“gmtime”的声明
+     1>d:\demo\lua\lua-5.2.3\src\loslib.c(204): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\time.inl(112) : 参见“localtime”的声明
+         lopcodes.c
+         lobject.c
+     1>d:\demo\lua\lua-5.2.3\src\lobject.c(209): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+         loadlib.c
+     1>d:\demo\lua\lua-5.2.3\src\loadlib.c(331): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>d:\demo\lua\lua-5.2.3\src\loadlib.c(639): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(449) : 参见“getenv”的声明
+     1>d:\demo\lua\lua-5.2.3\src\loadlib.c(641): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(449) : 参见“getenv”的声明
+         lmem.c
+         lmathlib.c
+         llex.c
+         liolib.c
+     1>d:\demo\lua\lua-5.2.3\src\liolib.c(220): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>d:\demo\lua\lua-5.2.3\src\liolib.c(222): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\string.h(164) : 参见“strerror”的声明
+     1>d:\demo\lua\lua-5.2.3\src\liolib.c(232): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>d:\demo\lua\lua-5.2.3\src\liolib.c(258): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(324) : 参见“tmpfile”的声明
+     1>d:\demo\lua\lua-5.2.3\src\liolib.c(352): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(237) : 参见“fscanf”的声明
+         正在生成代码...
+         正在编译...
+         linit.c
+         lgc.c
+         lfunc.c
+         ldump.c
+         ldo.c
+         ldebug.c
+         ldblib.c
+         lctype.c
+         lcorolib.c
+         lcode.c
+         lbitlib.c
+         lbaselib.c
+         lauxlib.c
+     1>d:\demo\lua\lua-5.2.3\src\lauxlib.c(216): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\string.h(164) : 参见“strerror”的声明
+     1>d:\demo\lua\lua-5.2.3\src\lauxlib.c(218): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\string.h(164) : 参见“strerror”的声明
+     1>d:\demo\lua\lua-5.2.3\src\lauxlib.c(588): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\string.h(164) : 参见“strerror”的声明
+     1>d:\demo\lua\lua-5.2.3\src\lauxlib.c(642): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>d:\demo\lua\lua-5.2.3\src\lauxlib.c(648): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 11.0\vc\include\stdio.h(233) : 参见“freopen”的声明
+         lapi.c
+         正在生成代码...
+       Lib:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\opt\vsworkspace\LuaLib\Debug\LuaLib.lib" /NOLOGO Debug\lapi.obj
+         Debug\lauxlib.obj
+         Debug\lbaselib.obj
+         Debug\lbitlib.obj
+         Debug\lcode.obj
+         Debug\lcorolib.obj
+         Debug\lctype.obj
+         Debug\ldblib.obj
+         Debug\ldebug.obj
+         Debug\ldo.obj
+         Debug\ldump.obj
+         Debug\lfunc.obj
+         Debug\lgc.obj
+         Debug\linit.obj
+         Debug\liolib.obj
+         Debug\llex.obj
+         Debug\lmathlib.obj
+         Debug\lmem.obj
+         Debug\loadlib.obj
+         Debug\lobject.obj
+         Debug\lopcodes.obj
+         Debug\loslib.obj
+         Debug\lparser.obj
+         Debug\lstate.obj
+         Debug\lstring.obj
+         Debug\lstrlib.obj
+         Debug\ltable.obj
+         Debug\ltablib.obj
+         Debug\ltm.obj
+         Debug\lua.obj
+         Debug\luac.obj
+         Debug\lundump.obj
+         Debug\lvm.obj
+         Debug\lzio.obj
+         LuaLib.vcxproj -> D:\opt\vsworkspace\LuaLib\Debug\LuaLib.lib
+     1>已完成生成项目“D:\opt\vsworkspace\LuaLib\LuaLib\LuaLib.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.99
