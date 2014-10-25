@@ -1,7 +1,6 @@
 /**
-²âÊÔ±àÒëµÄLua¿â
+Test the Lua lib
 **/
-
 #include <stdio.h>
 #include <windows.h>
 #include "lua.h"
