@@ -40,8 +40,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>D:\demo\lua\lua-5.2.3\src;$(IncludePath)</IncludePath>
-    <ReferencePath>D:\opt\vsworkspace\LuaLib\LuaLib\Debug;$(ReferencePath)</ReferencePath>
-    <LibraryPath>D:\opt\vsworkspace\LuaLib\LuaLib\Debug;$(LibraryPath)</LibraryPath>
+    <ReferencePath>D:\opt\vsworkspace\LuaLib\Debug;$(ReferencePath)</ReferencePath>
+    <LibraryPath>D:\opt\vsworkspace\LuaLib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>D:\demo\lua\lua-5.2.3\src;$(IncludePath)</IncludePath>
@@ -56,6 +56,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>LuaLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
