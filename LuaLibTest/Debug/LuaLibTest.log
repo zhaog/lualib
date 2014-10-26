@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿生成启动时间为 2014/10/25 22:33:24。
+=======
+﻿生成启动时间为 2014/10/25 22:29:58。
+>>>>>>> new_branch
      1>项目“D:\opt\vsworkspace\LuaLib\LuaLibTest\LuaLibTest.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\demo\lua\lua-5.2.3\src" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt LuaTest.c
@@ -12,4 +16,8 @@
 
 生成成功。
 
+<<<<<<< HEAD
 已用时间 00:00:01.14
+=======
+已用时间 00:00:01.85
+>>>>>>> new_branch

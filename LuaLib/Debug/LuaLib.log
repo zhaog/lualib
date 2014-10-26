@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿生成启动时间为 2014/10/25 21:58:08。
+=======
+﻿生成启动时间为 2014/10/25 21:30:17。
+>>>>>>> new_branch
      1>项目“D:\opt\vsworkspace\LuaLib\LuaLib\LuaLib.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
          D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\demo\lua\lua-5.2.3\src\lapi.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lauxlib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lbaselib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lbitlib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lcode.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lcorolib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lctype.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ldblib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ldebug.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ldo.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ldump.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lfunc.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lgc.c" "..\..\..\..\demo\lua\lua-5.2.3\src\linit.c" "..\..\..\..\demo\lua\lua-5.2.3\src\liolib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\llex.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lmathlib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lmem.c" "..\..\..\..\demo\lua\lua-5.2.3\src\loadlib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lobject.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lopcodes.c" "..\..\..\..\demo\lua\lua-5.2.3\src\loslib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lparser.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lstate.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lstring.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lstrlib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ltable.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ltablib.c" "..\..\..\..\demo\lua\lua-5.2.3\src\ltm.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lua.c" "..\..\..\..\demo\lua\lua-5.2.3\src\luac.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lundump.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lvm.c" "..\..\..\..\demo\lua\lua-5.2.3\src\lzio.c"
@@ -141,4 +145,8 @@
 
 生成成功。
 
+<<<<<<< HEAD
 已用时间 00:00:03.74
+=======
+已用时间 00:00:03.50
+>>>>>>> new_branch
